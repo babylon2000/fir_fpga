@@ -1,0 +1,101 @@
+# do fir.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:47:18 on Jan 30,2019
+# vlog -work work fir.vo 
+# -- Compiling module top
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	top
+# End time: 14:47:19 on Jan 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:47:19 on Jan 30,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module top_vlg_vec_tst
+# 
+# Top level modules:
+# 	top_vlg_vec_tst
+# End time: 14:47:20 on Jan 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L stratixiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.top_vlg_vec_tst 
+# Start time: 14:47:20 on Jan 30,2019
+# Loading work.top_vlg_vec_tst
+# Loading work.top
+# Loading work.hard_block
+# Loading stratixiv_ver.stratixiv_io_obuf
+# Loading stratixiv_ver.stratixiv_io_ibuf
+# Loading stratixiv_ver.stratixiv_clkena
+# Loading stratixiv_ver.stratixiv_ena_reg
+# Loading stratixiv_ver.stratixiv_and2
+# Loading stratixiv_ver.stratixiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading stratixiv_ver.stratixiv_ram_block
+# Loading stratixiv_ver.stratixiv_ram_register
+# Loading stratixiv_ver.stratixiv_ram_pulse_generator
+# Loading stratixiv_ver.stratixiv_mac_mult
+# Loading stratixiv_ver.stratixiv_mac_register
+# Loading stratixiv_ver.stratixiv_mac_multiplier
+# Loading stratixiv_ver.stratixiv_mac_out
+# Loading stratixiv_ver.stratixiv_fsa_isse
+# Loading stratixiv_ver.stratixiv_first_stage_add_sub
+# Loading stratixiv_ver.stratixiv_second_stage_add_accum
+# Loading stratixiv_ver.stratixiv_round_saturate_block
+# Loading stratixiv_ver.stratixiv_round_block
+# Loading stratixiv_ver.stratixiv_saturate_block
+# Loading stratixiv_ver.stratixiv_carry_chain_adder
+# Loading stratixiv_ver.stratixiv_rotate_shift_block
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 18357 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#26
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 2160000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 3910000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 5580000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 7250000 ps
+# Simulation time: 8920000 ps
+# Simulation time: 8920000 ps
+# Simulation time: 8920000 ps
+# Simulation time: 8920000 ps
+# Simulation time: 8920000 ps
+# ** Note: $finish    : Waveform.vwf.vt(48)
+#    Time: 10 us  Iteration: 0  Instance: /top_vlg_vec_tst
+# End time: 14:49:15 on Jan 30,2019, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 1
